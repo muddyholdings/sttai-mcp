@@ -87,8 +87,8 @@ Claude calls `chat_with_transcript("abc123", "what did they say about pricing?")
 
 ## Repo
 
-- Source: https://github.com/sttaigit/sttai-mcp
+- Source: https://github.com/muddyholdings/sttai-mcp
 - License: MIT
-- Issues: https://github.com/sttaigit/sttai-mcp/issues
+- Issues: https://github.com/muddyholdings/sttai-mcp/issues
 
 Maintained by [STT.ai](https://stt.ai).
