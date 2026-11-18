@@ -61,6 +61,15 @@ Settings → MCP → Add new MCP server:
 }
 ```
 
+### free-code
+
+[free-code](https://free.ai/code/cli/) (the Free.ai terminal coding agent) can use this server too. `${STT_API_KEY}` is read from your own environment, so the key is not written to disk:
+
+```bash
+free-code mcp add stt-ai sttai-mcp --env STT_API_KEY='${STT_API_KEY}'
+free-code mcp tools stt-ai   # check it connects
+```
+
 ### Run directly
 
 ```bash
