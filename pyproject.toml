@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sttai-mcp"
-version = "0.1.1"
+version = "0.1.2"
 description = "Model Context Protocol server for STT.ai — transcribe URLs, list/search transcripts, summarize, analyze, generate, and chat with transcripts from Claude Desktop / Cursor / any MCP client."
 readme = "README.md"
 license = "MIT"
@@ -28,7 +28,7 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 dependencies = [
-    "mcp>=1.0.0",
+    "mcp>=1,<2",
     "sttai>=0.1.0",
 ]
 
